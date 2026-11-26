@@ -49,3 +49,5 @@ pre_configure() {
 	CFLAGS="${CFLAGS/ -g/ -g1}"
 	CXXFLAGS="${CXXFLAGS/ -g/ -g1}"
 }
+
+# CI verification build for 7.4.6
