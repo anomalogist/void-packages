@@ -50,4 +50,4 @@ pre_configure() {
 	CXXFLAGS="${CXXFLAGS/ -g/ -g1}"
 }
 
-# CI verification build for 7.4.6
+# CI verification build for 7.4.6 (pinned workflows)
