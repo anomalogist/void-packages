@@ -42,7 +42,7 @@ jobs:
           useradd -G xbuilder -M builder
 
       - name: Clone and checkout
-        uses: classabbyamp/treeless-checkout-action@v1
+        uses: classabbyamp/treeless-checkout-action@bd3615a6e9d5546151e17d72193eea0d6f297398
 
       - name: Prepare masterdir
         run: |
@@ -104,7 +104,7 @@ jobs:
           useradd -G xbuilder -M builder
 
       - name: Clone and checkout
-        uses: classabbyamp/treeless-checkout-action@v1
+        uses: classabbyamp/treeless-checkout-action@bd3615a6e9d5546151e17d72193eea0d6f297398
 
       - name: Prepare masterdir
         run: |
